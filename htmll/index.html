@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table ,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ td {
+  padding: 5px;
+  text-align: center;
+}
+ tr:nth-child(3n+1){
+background-color:#ff1414;
+ }
+ tr:nth-child(3n+2){
+background-color:#24e624;
+ }
+ tr:nth-child(3n+3){
+background-color:#5555e4;
+ }
+ .table2{
+   margin-top: 50px;
+ }
+</style>
+<script>
+  /*var colors = new Array("#FF0000","#067520","#0A15A7");
+  function alternate(id){
+    if(document.getElementsByTagName){
+    var table = document.getElementById("id");
+    var rows = document.getElementsByTagName("tr");
+    for(i=0; i< rows.length; i++){
+    doMultiple(rows[i], i);
+  }
+  }
+  }
+  function doMultiple(rows,i){
+    rows.style.backgroundColor = colors[i % colors.length];
+  }
+</script>
+</head>
+<body>
+<table style="width:30%" id="thetable">
+  <tr>
+    <td>January</td>
+  </tr>
+  <tr>
+    <td>February</td>
+  </tr>
+  <tr>
+  <td>March</td>
+  </tr>
+  <tr>
+    <td>April</td>
+  </tr>
+  <tr>
+      <td>june</td>
+  </tr>
+  <tr>
+    <td>july</td>
+  </tr>
+</table>
+<div class="table2">
+<table style="width:30%" id="thetable">
+  <tr>
+    <td>sunday</td>
+  </tr>
+  <tr>
+    <td>monday</td>
+  </tr>
+  <tr>
+  <td>tuesday</td>
+  </tr>
+  <tr>
+    <td>wednesday</td>
+  </tr>
+  <tr>
+      <td>thursday</td>
+  </tr>
+  <tr>
+    <td>friday</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
